@@ -1,0 +1,154 @@
+:root {
+  --color-primary: #0e3b80;
+  --color-primary-shade: #2359ab;
+  --color-primary-light: #d3e2f8;
+  --color-neutral: #fff;
+  --color-light: rgb(218, 216, 216);
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+
+body {
+  background-color: var(--color-light);
+  line-height: 1.5;
+  font-family: Calibri;
+  text-rendering: optimizeSpeed;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  background-color: var(--color-neutral);
+  min-height: 100vh;
+  max-width: 790px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+a {
+  color: var(--color-primary-shade);
+  text-decoration: underline;
+}
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+/*Utilities*/
+.color-primary-shade {
+  color: var(--color-primary-shade);
+}
+
+.word-space-s1 {
+  word-spacing: 0.3ex;
+}
+
+.word-space-s2 {
+  word-spacing: 0.06ex;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+header li {
+  line-height: 16px;
+  font-size: 0.9rem;
+}
+
+section {
+  text-align: justify;
+  border-top: 1px solid var(--color-primary-light);
+  margin-bottom: 1rem;
+}
+
+section ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.list-title {
+  font-weight: 800;
+}
+
+.project {
+  margin-bottom: 1rem;
+}
+
+.project-heading :last-child {
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+
+.project-heading_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+.experience {
+  margin-bottom: 1rem;
+}
+
+.experience .experience-description {
+  margin-left: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+  .wrapper {
+    padding: 3rem;
+  }
+
+  .experience .experience-description {
+    margin-left: 2rem;
+  }
+
+  .experience-heading {
+    display: flex;
+  }
+
+  .experience-heading p:last-child {
+    margin-left: 1rem;
+  }
+}
