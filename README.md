@@ -1,11 +1,11 @@
 # Zuri Internship
 
-## Task Title: Responsive Web Design
+## Task Title: Create your portfolio
 
-This folder contains my submission for Zuri intership task: Responsive Web Design
+This folder contains my submission for Zuri intership task: Create your portfolio
 
 ## Deployment
-The live site is deployed [here]()
+The live site is deployed [here](https://kriszzy01.github.io/zuri-cv/)
 
 ## Task Details
 
